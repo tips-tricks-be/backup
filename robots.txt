@@ -1,0 +1,7 @@
+# Welkom robots! 
+# Dit vertelt zoekmachines welke pagina's ze mogen bekijken.
+
+User-agent: *
+Allow: /
+
+Sitemap: https://tips-tricks.be/sitemap.xml

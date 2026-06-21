@@ -1,0 +1,17 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="UTF-8"><meta name="description" content="tips-tricks.be voor gratis Nederlandse, 3ds max ,photoshop, windows 11, AI, lessen"><meta name="viewport" content="width=device-width"><link rel="icon" type="image/svg+xml" href="/favicon.png"><title>Suggestie Insturen | Tips-Tricks</title><link rel="stylesheet" href="/_astro/Layout.JmJUSDB_.css"></head> <body class="bg-[#141414] text-white font-sans antialiased selection:bg-red-600 selection:text-white">  <main class="bg-[#141414] min-h-screen text-white pt-28 px-6 md:px-16 max-w-xl mx-auto pb-12"> <a href="/" class="text-zinc-400 hover:text-red-500 transition text-sm flex items-center gap-2 mb-6">
+← Terug naar Home
+</a> <div class="bg-zinc-900 border border-zinc-800 p-8 rounded-xl shadow-2xl"> <h1 class="text-2xl md:text-3xl font-black tracking-tight text-red-500 mb-2">
+Drop een suggestie! 🚀
+</h1> <p class="text-zinc-400 text-sm mb-6">
+Typ hieronder je idee of de video die je mist. Als je op de knop klikt, opent je mailprogramma automatisch om hem te verzenden!
+</p> <div class="space-y-4"> <div> <label for="suggestion-text" class="block text-xs font-bold tracking-widest uppercase text-zinc-400 mb-1">
+Jouw Suggestie
+</label> <textarea id="suggestion-text" rows="6" required class="w-full bg-zinc-800 border border-zinc-700 rounded p-3 text-sm text-white placeholder-zinc-500 focus:outline-none focus:border-red-500 transition resize-none" placeholder="Ik zou heel graag een video willen zien over..."></textarea> </div> <button id="send-mail-btn" class="w-full bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-4 rounded transition-colors duration-200 uppercase tracking-wider text-xs flex items-center justify-center gap-2">
+Mail me de suggestie ✉️
+</button> </div> </div> <footer class="w-full py-6 mt-12 border-t border-zinc-800 bg-zinc-950/20 text-center"> <p class="text-xs text-zinc-500 tracking-wide">
+&copy; 2026 Copyright by <a href="https://tips-tricks.be" class="hover:text-red-500 transition-colors duration-200">tips-tricks.be</a>. Alle rechten voorbehouden.
+</p> </footer> </main> </body></html> <script type="module">const t=document.getElementById("send-mail-btn"),n=document.getElementById("suggestion-text"),s="info@tips-tricks.be";t&&n&&t.addEventListener("click",()=>{const e=n.value.trim();if(!e){alert("Typ eerst even een suggestie in het tekstveld! 😉");return}const o=encodeURIComponent("Video Suggestie Tips-Tricks"),i=encodeURIComponent(`Hoi!
+
+Ik heb een suggestie voor een nieuwe video:
+
+${e}`);window.location.href=`mailto:${s}?subject=${o}&body=${i}`});</script>
