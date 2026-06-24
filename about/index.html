@@ -1,4 +1,21 @@
-<!DOCTYPE html><html lang="en"> <head><meta charset="UTF-8"><meta name="description" content="tips-tricks.be voor gratis Nederlandse, 3ds max ,photoshop, windows 11, AI, lessen"><meta name="viewport" content="width=device-width"><link rel="icon" type="image/svg+xml" href="/favicon.png"><title>Over Tips-Tricks | Meer Info</title><link rel="stylesheet" href="/_astro/Layout.DKxNdGRM.css"></head> <body class="bg-[#141414] text-white font-sans antialiased selection:bg-red-600 selection:text-white">  <main class="bg-[#141414] min-h-screen text-white pt-24 px-6 md:px-16 max-w-4xl mx-auto space-y-8 pb-12"> <a href="/" class="text-zinc-400 hover:text-red-500 transition text-sm flex items-center gap-2">
+<!DOCTYPE html><html lang="en"> <head><meta charset="UTF-8"><meta name="description" content="tips-tricks.be voor gratis Nederlandse, 3ds max ,photoshop, windows 11, AI, lessen"><meta name="viewport" content="width=device-width"><link rel="icon" type="image/svg+xml" href="/favicon.png"><title>Over Tips-Tricks | Meer Info</title><script>
+  const theme = (() => {
+    if (typeof localStorage !== 'undefined' && localStorage.getItem('theme')) {
+      return localStorage.getItem('theme');
+    }
+    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      return 'dark';
+    }
+    return 'light';
+  })();
+
+  if (theme === 'dark') {
+    document.documentElement.classList.add('dark');
+  } else {
+    document.documentElement.classList.remove('dark');
+  }
+  window.localStorage.setItem('theme', theme);
+</script><link rel="stylesheet" href="/_astro/Layout.Bup0w5Jb.css"></head> <body class="bg-zinc-50 text-gray-900 dark:bg-[#141414] dark:text-white font-sans antialiased selection:bg-red-600 selection:text-white transition-colors duration-300">  <main class="bg-[#141414] min-h-screen text-white pt-24 px-6 md:px-16 max-w-4xl mx-auto space-y-8 pb-12"> <a href="/" class="text-zinc-400 hover:text-red-500 transition text-sm flex items-center gap-2">
 ← Terug naar Home
 </a> <h1 class="text-4xl md:text-6xl font-black tracking-tight text-red-600 uppercase">
 Tips<span class="text-white font-light">-Tricks</span> </h1> <p class="text-lg text-gray-300 leading-relaxed">
